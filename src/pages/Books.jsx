@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Book from "../components/UI/Book.jsx";
 
-export default function ({ books: initialBooks }) {
+export default function Books({ books: initialBooks }) {
   const [books, setBooks] = useState(initialBooks);
 
   function filterBooks(filter) {

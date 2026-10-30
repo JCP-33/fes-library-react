@@ -2,7 +2,7 @@ import React from "react";
 import { books } from "../data";
 import Book from "./UI/Book";
 
-export default function () {
+export default function Discounted() {
   return (
     <section id="recent">
       <div className="container">
